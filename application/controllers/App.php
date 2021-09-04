@@ -183,12 +183,12 @@ class App extends CI_Controller {
       $this->climate->info("     New version is available. update your fb-bot now, type 'ut' for update");
     }
     $this->climate->out(" {$this->cyan}¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤");
-    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}RC{$this->cyan} ¤] {$this->green}      REMOVE COOKIE       {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
-    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}RB{$this->cyan} ¤] {$this->green}       REPORT BUG         {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
-    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}UT{$this->cyan} ¤] {$this->yellow}       UPDATE TOOL        {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
-    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}SC{$this->cyan} ¤] {$this->reset}SEE YOUR FACEBOOK COOKIES {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
-    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}AT{$this->cyan} ¤] {$this->yellow}     ABOUT THIS TOOLS     {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
-    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}EX{$this->cyan} ¤] {$this->red}            EXIT          {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
+    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}RC{$this->green} ¤] {$this->reset}      REMOVE COOKIE       {$this->green}[¤ {$this->reset}RC{$this->cyan} ¤]");
+    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}RB{$this->green} ¤] {$this->reset}        REPORT BUG         {$this->green}[¤ {$this->reset}RC{$this->cyan} ¤]");
+    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}UT{$this->green} ¤] {$this->reset}       UPDATE TOOL        {$this->green}[¤ {$this->reset}RC{$this->cyan} ¤]");
+    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}SC{$this->green} ¤] {$this->reset}SEE YOUR FACEBOOK COOKIES {$this->green}[¤ {$this->reset}RC{$this->cyan} ¤]");
+    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}AT{$this->green} ¤] {$this->reset}     ABOUT THIS TOOLS     {$this->green}[¤ {$this->reset}RC{$this->cyan} ¤]");
+    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}EX{$this->green} ¤] {$this->reset}           EXIT           {$this->green}[¤ {$this->reset}RC{$this->cyan} ¤]");
     $this->climate->out(" {$this->cyan}¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤");
     $this->climate->out(" {$this->cyan}¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤");
     foreach ($this->configs->show_menu() as $menu)
