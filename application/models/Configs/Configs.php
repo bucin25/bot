@@ -22,8 +22,6 @@ class Configs extends CI_Model {
       @Banner please don't remove the author name
     */
     $this->banner = PHP_EOL."
-
-
                 w e l c o m e  t o
               
 {$this->white}       [R] [A] [T] [U]  [E] [R] [R] [O] [R]
