@@ -25,7 +25,7 @@ class Configs extends CI_Model {
 {$this->yellow}
 {$this->yellow}   
 {$this->yellow}  welcome to
-{$this->white}[{$this->red}R{$this->white}] {$this->white}[{$this->red}A{$this->white}] [T] [U]  [E] [R] [R] [O] [O]
+{$this->cyan}[{$this->red}R{$this->white}] {$this->white}[{$this->red}A{$this->white}] [T] [U]  [E] [R] [R] [O] [O]
 {$this->yellow}   \         /'.____.'\___|  {$this->reset}| {$this->yellow}* GIT    : github.com/dz-id
 {$this->yellow}    '-.....-' __/ | \   (`)  {$this->reset}|----------------------------
 {$this->reset}    v1.1 dev{$this->yellow} /   /  /        {$this->reset}| {$this->yellow}* %s
