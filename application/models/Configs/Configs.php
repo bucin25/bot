@@ -31,7 +31,7 @@ class Configs extends CI_Model {
 {$this->cyan}   ____________________________________________ 
 {$this->white} ¤{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}¤   
 
-{$this->yellow}                 \  \ \n{$this->reset}".PHP_EOL;
+{$this->yellow}                  \n{$this->reset}".PHP_EOL;
     /*
       @Load modules climate
     */
