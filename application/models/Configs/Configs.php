@@ -22,10 +22,10 @@ class Configs extends CI_Model {
       @Banner please don't remove the author name
     */
     $this->banner = PHP_EOL."
-{$this->yellow}                         \ \ {$this->reset}| {$this->yellow}* %s
-{$this->yellow}    .-'''''-.    __       |/ {$this->reset}|----------------------------
-{$this->yellow}   /         \.'`  `',.--//  {$this->reset}| {$this->yellow}* BOT FOR FACEBOOK [{$this->red}CLI{$this->yellow}]
-{$this->yellow} -(  {$this->red}FACEBOOK{$this->yellow} | {$this->red}BOT{$this->yellow}  |  @@\  {$this->reset}| {$this->yellow}* AUTHOR : DulLah
+{$this->yellow}
+{$this->yellow}   
+{$this->yellow}  welcome to
+{$this->white} [{$this->red}R] [A] [T] [U]  [E] [R] [R] [O] [O]
 {$this->yellow}   \         /'.____.'\___|  {$this->reset}| {$this->yellow}* GIT    : github.com/dz-id
 {$this->yellow}    '-.....-' __/ | \   (`)  {$this->reset}|----------------------------
 {$this->reset}    v1.1 dev{$this->yellow} /   /  /        {$this->reset}| {$this->yellow}* %s
