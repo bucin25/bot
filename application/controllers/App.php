@@ -182,7 +182,7 @@ class App extends CI_Controller {
     {
       $this->climate->info("     New version is available. update your fb-bot now, type 'ut' for update");
     }
-    $this->climate->out(" [{$this->cyan}RC{$this->reset}]. Remove Cookies");
+    $this->climate->out(" {$this->yellow}[{$this->cyan}RC{$this->reset}]. Remove Cookies");
     $this->climate->out(" [{$this->cyan}RB{$this->reset}]. Report Bug");
     $this->climate->out(" [{$this->cyan}UT{$this->reset}]. Update Tools");
     $this->climate->out(" [{$this->cyan}SC{$this->reset}]. See Your FB Cookies");
@@ -191,7 +191,7 @@ class App extends CI_Controller {
     $this->climate->out("");
     foreach ($this->configs->show_menu() as $menu)
     {
-      $this->climate->out("    [{$this->yellow}{$menu->no}{$this->reset}]. $menu->name");
+      $this->climate->out(" [{$this->cyan}{$menu->no}{$this->reset}]. $menu->name");
     }
     $input = $this->climate->br()->input("  Choice:");
     $input = $input->prompt();
