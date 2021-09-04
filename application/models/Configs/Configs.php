@@ -24,11 +24,11 @@ class Configs extends CI_Model {
     $this->banner = PHP_EOL."
 
 
-              w e l c o m e  t o
+                w e l c o m e  t o
               
 {$this->white}       [R] [A] [T] [U]  [E] [R] [R] [O] [R]
 {$this->reset}
-{$this->cyan}    ____________________________________________ 
+{$this->cyan}   ____________________________________________ 
 {$this->white} ¤{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}¤   
 
 {$this->yellow}                 \  \ \n{$this->reset}".PHP_EOL;
