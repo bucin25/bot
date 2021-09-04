@@ -31,7 +31,6 @@ class Configs extends CI_Model {
 {$this->cyan}   ____________________________________________ 
 {$this->reset} ¤{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}¤   
 {$this->yellow}                  \n{$this->reset}".PHP_EOL;
-    /*
       @Load modules climate
     */
     include('vendor/autoload.php');
