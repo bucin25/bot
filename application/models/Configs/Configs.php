@@ -203,3 +203,5 @@ class Configs extends CI_Model {
       )
     );
     return json_decode($menu);
+    }
+}
