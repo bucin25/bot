@@ -24,11 +24,12 @@ class Configs extends CI_Model {
     $this->banner = PHP_EOL."
 
 
-                         welcome to
+                     welcome to
 {$this->white} [R] [A] [T] [U]  [E] [R] [R] [O] [R]
-{$this->yellow}   \         /'.____.'\___|  {$this->reset}| {$this->yellow}* GIT    : github.com/dz-id
-{$this->yellow}    '-.....-' __/ | \   (`)  {$this->reset}|----------------------------
-{$this->reset}    v1.1 dev{$this->yellow} /   /  /        {$this->reset}| {$this->yellow}* %s
+{$this->reset}
+{$this->reset}___________________________________
+{$this->yellow}¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤   
+
 {$this->yellow}                 \  \ \n{$this->reset}".PHP_EOL;
     /*
       @Load modules climate
