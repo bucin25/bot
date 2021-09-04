@@ -188,7 +188,7 @@ class App extends CI_Controller {
     $this->climate->out(" [{$this->cyan}SC{$this->reset}]. See Your FB Cookies");
     $this->climate->out(" [{$this->cyan}AT{$this->reset}]. About This Tools");
     $this->climate->out(" [{$this->cyan}EX{$this->reset}]. Exit");
-    $this->climate->out(" [{$this->cyan}EX{$this->reset}].");
+    $this->climate->out("");
     foreach ($this->configs->show_menu() as $menu)
     {
       $this->climate->out("    [{$this->yellow}{$menu->no}{$this->reset}]. $menu->name");
