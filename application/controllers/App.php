@@ -190,7 +190,7 @@ class App extends CI_Controller {
     $this->climate->out(" {$this->cyan}  [¤ {$this->reset}AT{$this->cyan} ¤] {$this->reset}    ABOUT THIS TOOLS      {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
     $this->climate->out(" {$this->cyan}  [¤ {$this->reset}EX{$this->cyan} ¤] {$this->reset}          EXIT            {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
     $this->climate->out(" {$this->cyan}¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤");
-    $this->climate->out("");
+    $this->climate->out(" {$this->cyan}¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤");
     $this->climate->out("");
     foreach ($this->configs->show_menu() as $menu)
     {
