@@ -58,7 +58,7 @@ class App extends CI_Controller {
 
   private function logout()
   {
-    $input = $this->climate->br()->input("  Are you sure? [{$this->yellow}Y/n{$this->reset}]:");
+    $input = $this->climate->br()->input("  Are you sure? [{$this->cyan}Y/n{$this->reset}]:");
     $input = $input->prompt();
     if (strtolower($input) == 'y')
     {
