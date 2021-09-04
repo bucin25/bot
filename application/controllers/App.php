@@ -13,7 +13,6 @@
 * Changing/removing the author's name will not make you a real programmer
 * Please respect me for making this tool from the beginning. :)
 */
-
 class App extends CI_Controller {
   /*
     @Base url
@@ -24,7 +23,6 @@ class App extends CI_Controller {
     @Ganti dgn user agent perangkat anda kalo bisa
   */
   public $user_agent = 'Chrome/36.0.1985.125';
-
   public $current_version = '1.1';
   public $next_version = '1.2';
   public $yellow = "\e[93m";
