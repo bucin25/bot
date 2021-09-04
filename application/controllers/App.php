@@ -183,8 +183,8 @@ class App extends CI_Controller {
       $this->climate->info("     New version is available. update your fb-bot now, type 'ut' for update");
     }
     $this->climate->out(" {$this->cyan}¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤");
-    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}RC{$this->cyan} ¤] {$this->green}      REMOVE COOKIE       {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
-    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}RB{$this->cyan} ¤] {$this->red}        REPORT BUG        {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
+    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}RC{$this->cyan} ¤] {$this->green} REMOVE COOKIE            {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
+    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}RB{$this->cyan} ¤] {$this->red}               REPORT BUG {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
     $this->climate->out(" {$this->cyan}  [¤ {$this->reset}UT{$this->cyan} ¤] {$this->yellow}       UPDATE TOOL        {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
     $this->climate->out(" {$this->cyan}  [¤ {$this->reset}SC{$this->cyan} ¤] {$this->reset}SEE YOUR FACEBOOK COOKIES {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
     $this->climate->out(" {$this->cyan}  [¤ {$this->reset}AT{$this->cyan} ¤] {$this->fuchsia}    ABOUT THIS TOOLS      {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
