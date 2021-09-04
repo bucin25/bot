@@ -182,12 +182,12 @@ class App extends CI_Controller {
     {
       $this->climate->info("     New version is available. update your fb-bot now, type 'ut' for update");
     }
-    $this->climate->out(" {$this->cyan}[{$this->reset}RC{$this->cyan}] {$this->reset}Remove Cookies");
-    $this->climate->out(" [{$this->cyan}RB{$this->reset}] Report Bug");
-    $this->climate->out(" [{$this->cyan}UT{$this->reset}] Update Tools");
-    $this->climate->out(" [{$this->cyan}SC{$this->reset}] See Your FB Cookies");
-    $this->climate->out(" [{$this->cyan}AT{$this->reset}] About This Tools");
-    $this->climate->out(" [{$this->cyan}EX{$this->reset}] Exit");
+    $this->climate->out(" {$this->cyan}¤ [{$this->reset}RC{$this->cyan} ¤] {$this->reset}REMOVE COOKIE");
+    $this->climate->out(" [{$this->cyan}RB{$this->reset}] REPORT BUG");
+    $this->climate->out(" [{$this->cyan}UT{$this->reset}] UPDATE TOOLS");
+    $this->climate->out(" [{$this->cyan}SC{$this->reset}] SEE YOUR FACEBOOK COOKIES");
+    $this->climate->out(" [{$this->cyan}AT{$this->reset}] ABOUT THIS TOOLS");
+    $this->climate->out(" [{$this->cyan}EX{$this->reset}] EXIT");
     $this->climate->out("");
     foreach ($this->configs->show_menu() as $menu)
     {
