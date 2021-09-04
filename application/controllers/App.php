@@ -184,7 +184,7 @@ class App extends CI_Controller {
     }
     $this->climate->out(" {$this->cyan}¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤");
     $this->climate->out(" {$this->cyan}  [¤ {$this->reset}RC{$this->green} ¤] {$this->reset}      REMOVE COOKIE       {$this->green}[¤ {$this->reset}RC{$this->cyan} ¤]");
-    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}RB{$this->green} ¤] {$this->reset}        REPORT BUG         {$this->green}[¤ {$this->reset}RC{$this->cyan} ¤]");
+    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}RB{$this->green} ¤] {$this->reset}        REPORT BUG        {$this->green}[¤ {$this->reset}RC{$this->cyan} ¤]");
     $this->climate->out(" {$this->cyan}  [¤ {$this->reset}UT{$this->green} ¤] {$this->reset}       UPDATE TOOL        {$this->green}[¤ {$this->reset}RC{$this->cyan} ¤]");
     $this->climate->out(" {$this->cyan}  [¤ {$this->reset}SC{$this->green} ¤] {$this->reset}SEE YOUR FACEBOOK COOKIES {$this->green}[¤ {$this->reset}RC{$this->cyan} ¤]");
     $this->climate->out(" {$this->cyan}  [¤ {$this->reset}AT{$this->green} ¤] {$this->reset}     ABOUT THIS TOOLS     {$this->green}[¤ {$this->reset}RC{$this->cyan} ¤]");
