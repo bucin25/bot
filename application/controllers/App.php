@@ -58,7 +58,7 @@ class App extends CI_Controller {
 
   private function logout()
   {
-    $input = $this->climate->br()->input("  Are you sure? [{$this->cyan}Y/n{$this->reset}]:");
+    $input = $this->climate->br()->input("  Are you sure? [{$this->yellow}Y/n{$this->reset}]:");
     $input = $input->prompt();
     if (strtolower($input) == 'y')
     {
@@ -182,14 +182,14 @@ class App extends CI_Controller {
     {
       $this->climate->info("     New version is available. update your fb-bot now, type 'ut' for update");
     }
-    $this->climate->out('  +------------------------------------------------------+');
-    $this->climate->out("    [{$this->yellow}RC{$this->reset}]. Remove Cookies");
-    $this->climate->out("    [{$this->yellow}RB{$this->reset}]. Report Bug");
-    $this->climate->out("    [{$this->yellow}UT{$this->reset}]. Update Tools");
-    $this->climate->out("    [{$this->yellow}SC{$this->reset}]. See Your FB Cookies");
-    $this->climate->out("    [{$this->yellow}AT{$this->reset}]. About This Tools");
-    $this->climate->out("    [{$this->yellow}EX{$this->reset}]. Exit");
-    $this->climate->out('  +------------------------------------------------------+');
+    $this->climate->out('  ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤');
+    $this->climate->out("    [{$this->cyan}RC{$this->reset}]. Remove Cookies");
+    $this->climate->out("    [{$this->cyan}RB{$this->reset}]. Report Bug");
+    $this->climate->out("    [{$this->cyan}UT{$this->reset}]. Update Tools");
+    $this->climate->out("    [{$this->cyan}SC{$this->reset}]. See Your FB Cookies");
+    $this->climate->out("    [{$this->cyan}AT{$this->reset}]. About This Tools");
+    $this->climate->out("    [{$this->cyan}EX{$this->reset}]. Exit");
+    $this->climate->out('  ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤');
     foreach ($this->configs->show_menu() as $menu)
     {
       $this->climate->out("    [{$this->yellow}{$menu->no}{$this->reset}]. $menu->name");
