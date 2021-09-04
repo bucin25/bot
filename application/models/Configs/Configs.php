@@ -32,7 +32,7 @@ class Configs extends CI_Model {
 {$this->reset} ¤{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}¤   
 {$this->yellow}                  \n{$this->reset}".PHP_EOL;
     */
-    @Load modules climate
+      @Load modules climate
     */
     include('vendor/autoload.php');
     $this->cli = new League\CLImate\CLImate;
