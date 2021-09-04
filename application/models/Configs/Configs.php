@@ -29,7 +29,7 @@ class Configs extends CI_Model {
 {$this->white}       [R] [A] [T] [U]  [E] [R] [R] [O] [R]
 {$this->reset}
 {$this->cyan}   ____________________________________________ 
-{$this->white} ¤{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}¤   
+{$this->reset} ¤{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}¤   
 
 {$this->yellow}                  \n{$this->reset}".PHP_EOL;
     /*
