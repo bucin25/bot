@@ -24,7 +24,7 @@ class Configs extends CI_Model {
     $this->banner = PHP_EOL."
 {$this->yellow}
 {$this->yellow}   
-{$this->}  welcome to
+                         welcome to
 {$this->white} [R] [A] [T] [U]  [E] [R] [R] [O] [R]
 {$this->yellow}   \         /'.____.'\___|  {$this->reset}| {$this->yellow}* GIT    : github.com/dz-id
 {$this->yellow}    '-.....-' __/ | \   (`)  {$this->reset}|----------------------------
