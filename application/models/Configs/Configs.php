@@ -27,8 +27,8 @@ class Configs extends CI_Model {
                      welcome to
 {$this->white} [R] [A] [T] [U]  [E] [R] [R] [O] [R]
 {$this->reset}
-{$this->reset}___________________________________
-{$this->yellow}¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤   
+{$this->cyan}    ____________________________________________ 
+{$this->brown} ¤{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}¤   
 
 {$this->yellow}                 \  \ \n{$this->reset}".PHP_EOL;
     /*
