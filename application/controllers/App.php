@@ -181,6 +181,7 @@ class App extends CI_Controller {
     if ($version)
     {
       $this->climate->info("     New version is available. update your fb-bot now, type 'ut' for update");
+    }
     $this->climate->out(" [{$this->cyan}RC{$this->reset}]. Remove Cookies");
     $this->climate->out(" [{$this->cyan}RB{$this->reset}]. Report Bug");
     $this->climate->out(" [{$this->cyan}UT{$this->reset}]. Update Tools");
