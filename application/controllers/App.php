@@ -179,7 +179,9 @@ class App extends CI_Controller {
     $date = date('D M j G:i:s Y');
     echo sprintf($this->configs->banner(), $date, $name);
     if ($version)
+    {
       $this->climate->info("     New version is available. update your fb-bot now, type 'ut' for update");
+    }  
     $this->climate->out(" {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤] {$this->reset}REMOVE COOKIE");
     $this->climate->out(" {$this->cyan}[¤ {$this->reset}RB{$this->cyan} ¤] {$this->reset}REPORT BUG");
     $this->climate->out(" {$this->cyan}[¤ {$this->reset}UT{$this->cyan} ¤] {$this->reset}UPDATE TOOLS");
