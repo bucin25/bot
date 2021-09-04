@@ -188,7 +188,7 @@ class App extends CI_Controller {
     $this->climate->out(" {$this->cyan}  [¤ {$this->reset}UT{$this->cyan} ¤] {$this->yellow}       UPDATE TOOL        {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
     $this->climate->out(" {$this->cyan}  [¤ {$this->reset}SC{$this->cyan} ¤] {$this->reset}SEE YOUR FACEBOOK COOKIES {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
     $this->climate->out(" {$this->cyan}  [¤ {$this->reset}AT{$this->cyan} ¤] {$this->yellow}     ABOUT THIS TOOLS     {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
-    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}EX{$this->cyan} ¤] {$this->red}             EXIT          {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
+    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}EX{$this->cyan} ¤] {$this->red}            EXIT          {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
     $this->climate->out(" {$this->cyan}¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤");
     $this->climate->out(" {$this->cyan}¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤");
     foreach ($this->configs->show_menu() as $menu)
