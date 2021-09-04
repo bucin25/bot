@@ -184,11 +184,11 @@ class App extends CI_Controller {
     }
     $this->climate->out(" {$this->cyan}¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤");
     $this->climate->out(" {$this->cyan}  [¤ {$this->reset}RC{$this->cyan} ¤] {$this->green}      REMOVE COOKIE       {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
-    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}RB{$this->cyan} ¤] {$this->reset}       REPORT BUG         {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
-    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}UT{$this->cyan} ¤] {$this->reset}      UPDATE TOOLS        {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
-    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}SC{$this->cyan} ¤] {$this->reset}SEE YOUR FACEBOOK COOKIES {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
-    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}AT{$this->cyan} ¤] {$this->reset}    ABOUT THIS TOOLS      {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
-    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}EX{$this->cyan} ¤] {$this->reset}          EXIT            {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
+    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}RB{$this->cyan} ¤] {$this->pink}       REPORT BUG         {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
+    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}UT{$this->cyan} ¤] {$this->yellow}      UPDATE TOOLS        {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
+    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}SC{$this->cyan} ¤] {$this->blue}SEE YOUR FACEBOOK COOKIES {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
+    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}AT{$this->cyan} ¤] {$this->flax}    ABOUT THIS TOOLS      {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
+    $this->climate->out(" {$this->cyan}  [¤ {$this->reset}EX{$this->cyan} ¤] {$this->orange}          EXIT            {$this->cyan}[¤ {$this->reset}RC{$this->cyan} ¤]");
     $this->climate->out(" {$this->cyan}¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤");
     $this->climate->out(" {$this->cyan}¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤");
     foreach ($this->configs->show_menu() as $menu)
