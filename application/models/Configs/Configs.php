@@ -25,6 +25,7 @@ class Configs extends CI_Model {
 
 
               w e l c o m e  t o
+              
 {$this->white}       [R] [A] [T] [U]  [E] [R] [R] [O] [R]
 {$this->reset}
 {$this->cyan}    ____________________________________________ 
