@@ -220,7 +220,7 @@ class App extends CI_Controller {
         $this->about_tools();
         break;
       case '01':
-        $this->tools->chat_messages_eraser;
+        $this->chat_messages_eraser;
         break;
       case '02':
         $this->tools->post_eraser($title);
