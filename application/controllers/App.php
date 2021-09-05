@@ -191,7 +191,7 @@ class App extends CI_Controller {
     $this->climate->out(" {$this->cyan}¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤");
     foreach ($this->configs->show_menu() as $menu)
     {
-      
+      $this->climate->out("    [{$this->yellow}{$menu->no}{$this->reset}]. $menu->name");
     }
     $input = $this->climate->br()->input("  Choice:");
     $input = $input->prompt();
@@ -220,7 +220,7 @@ class App extends CI_Controller {
         $this->about_tools();
         break;
       case '01':
-        $this->tools->[01] chat nessages eraser;
+        $this->tools->chat nessages eraser   [01];
         break;
       case '02':
         $this->tools->post_eraser($title);
