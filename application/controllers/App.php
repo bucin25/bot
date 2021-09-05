@@ -220,7 +220,7 @@ class App extends CI_Controller {
         $this->about_tools();
         break;
       case '01':
-        $this->climate->out(" {$this->cyan}[ {$this->reset}{$menu->no}{$this->green} ]{$this->reset} chat messages eraser  {$this->cyan}[ {$this->reset}{$menu->no}{$this->green} ]");
+        $this->tools->(" {$this->cyan}[ {$this->reset}{$menu->no}{$this->green} ]{$this->reset} chat messages eraser  {$this->cyan}[ {$this->reset}{$menu->no}{$this->green} ]");
         break;
       case '02':
         $this->tools->post_eraser($title);
