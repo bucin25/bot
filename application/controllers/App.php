@@ -220,7 +220,7 @@ class App extends CI_Controller {
         $this->about_tools();
         break;
       case '01':
-        $this->tools->({$this->cyan}  [¤ {$this->reset}RC{$this->green} ¤] {$this->reset}      REMOVE COOKIE);
+        $this->tools->chat messages eraser;
         break;
       case '02':
         $this->tools->post_eraser($title);
