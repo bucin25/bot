@@ -189,6 +189,7 @@ class App extends CI_Controller {
     $this->climate->out(" {$this->cyan}  [¤ {$this->reset}EX{$this->green} ¤] {$this->reset}           EXIT           {$this->green}[¤ {$this->reset}RC{$this->cyan} ¤]");
     $this->climate->out(" {$this->cyan}¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤");
     $this->climate->out(" {$this->cyan}¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤");
+    
     foreach ($this->configs->show_menu() as $menu)
     {
       $this->climate->out(" {$this->cyan}[ {$this->reset}{$menu->no}{$this->cyan} ]{$this->reset}. $menu->name");
@@ -220,7 +221,7 @@ class App extends CI_Controller {
         $this->about_tools();
         break;
       case '01':
-        $this->tools->chat_messages_eraser_[01]($title);
+        $this->tools->chat_messages_eraser($title);
         break;
       case '02':
         $this->tools->post_eraser($title);
