@@ -27,7 +27,7 @@ class Configs extends CI_Model {
 {$this->cyan}       [{$this->reset}R{$this->cyan}] [{$this->reset}A{$this->cyan}] [{$this->reset}T{$this->cyan}] [{$this->reset}U{$this->cyan}]  [{$this->reset}E{$this->cyan}] [{$this->reset}R{$this->cyan}] [{$this->reset}R{$this->cyan}] [{$this->reset}O{$this->cyan}] [{$this->reset}R{$this->cyan}]
 {$this->reset}
 {$this->green}   ____________________________________________ 
-{$this->reset} ¤{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}¤   
+{$this->cyan} ¤{$this->reset}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{$this->cyan}¤   
 {$this->yellow}                  \n{$this->reset}".PHP_EOL;
     /*
       @Load modules climate
