@@ -191,7 +191,7 @@ class App extends CI_Controller {
     $this->climate->out(" {$this->cyan}¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤");
     foreach ($this->configs->show_menu() as $menu)
     {
-      $this->climate->out(" {$this->cyan}[ {$this->reset}{$menu->no}{$this->cyan} ] {$this->reset}$menu->name");
+      $this->climate->out(" {$this->cyan}[ {$this->reset}{$menu->no}{$this->gree} ] {$this->reset}$menu->name");
     }
     $input = $this->climate->br()->input("  Choice:");
     $input = $input->prompt();
